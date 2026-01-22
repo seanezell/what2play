@@ -29,9 +29,9 @@ Originally built ~10 years ago as a C# Discord bot. Rebuilt in 2025–2026 as a 
 | Real-time (future)  | AppSync GraphQL or polling              | Optional polish                               |
 
 ## Repository Layout (4 repos total)
-what2play-infrastructure/   → Shared infrastructure (Cognito, S3, CloudFront, DNS)
-what2play-client/           → React frontend (deployed to S3/CloudFront)
-what2play-services/         → API Gateway + Lambda functions + DynamoDB tables
+[what2play-infrastructure/](https://github.com/seanezell/what2play-infrastructure)   → Shared infrastructure (Cognito, S3, CloudFront, DNS)
+[what2play-client/](https://github.com/seanezell/what2play-client)                   → React frontend (deployed to S3/CloudFront)
+[what2play-services/](https://github.com/seanezell/what2play-services)               → API Gateway + Lambda functions + DynamoDB tables
 what2play-ai-prompts/       → Prompt library & examples (optional)
 
 
